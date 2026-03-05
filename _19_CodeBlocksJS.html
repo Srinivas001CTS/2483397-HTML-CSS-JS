@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>Java script block code</h2>
+        <p>java scrpt code blocks are written between { and }</p>
+        <button type="button" onclick="myfunction()"> Ckick Me!</button>
+
+        <p id ="demo1"></p>
+        <p id="demo2"></p>
+        <script>
+            function myfunction(){
+                // If you gave two html elements to same id, then Javascript overwrite and prints the last one only.
+                document.getElementById("demo1").innerHTML=
+                "Hello Java Script!";
+                document.getElementById("demo1").innerHTML=
+                "I am from JS code blocks";
+                document.getElementById("demo2").innerHTML=
+                "How are you??";
+
+            }
+        </script>
+    </body>
+</html>
